@@ -1,0 +1,22 @@
+## Interface: 120000,120001
+## Title: CkraigCooldownManager
+## Notes: Centered buff tracker and cooldown bar manager
+## Author: Ckraigfriend
+## Version: 1.0
+## SavedVariables: MyEssentialBuffTrackerDB,MyUtilityBuffTrackerDB,DYNAMICICONSDB,DYNAMICBARSDB,CooldownChargeDB,CkraigCooldownManagerDB
+
+## OptionalDeps: LibStub, CallbackHandler-1.0, LibSharedMedia-3.0
+
+Libs/LibStub/LibStub.lua
+Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+Libs/AceAddon-3.0/AceAddon-3.0.xml
+Libs/AceEvent-3.0/AceEvent-3.0.xml
+Libs/AceDB-3.0/AceDB-3.0.xml
+Libs/LibSharedMedia-3.0/LibSharedMedia-3.0.lua
+
+MyEssentialBuffTracker.lua
+MyUtilityBuffTracker.lua
+DYNAMICICONS.lua
+CCM_CooldownBars.lua
+CkraigsOptions.lua
+ChargeTextColorOptions.lua
